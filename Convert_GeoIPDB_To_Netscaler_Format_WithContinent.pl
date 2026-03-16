@@ -634,7 +634,7 @@ fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|
 			}
 			print LOG $logmsg;
 			 #print OUT "$start_ip,$end_ip,,$out_county_code,$out_sub_dv,$out_city,,,$longitude,$latitude\n";
-			print OUT "$start_ip,$end_ip,$out_county_code,$out_sub_dv_1,$out_sub_dv_2,$out_city,,$longitude,$latitude\n";
+			print OUT "$start_ip,$end_ip,,$out_county_code,$out_sub_dv_1,$out_sub_dv_2,$out_city,,$longitude,$latitude\n";
 		}
 		else{
 			if(!defined $start_invalid_addr){
